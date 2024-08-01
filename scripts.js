@@ -31,3 +31,7 @@ function copyToClipboard() {
     outputText.select();
     document.execCommand("copy");
 }
+function clearFields() { // Função para limpar os campos de texto
+    document.getElementById("inputText").value = "";
+    document.getElementById("outputText").value = "";
+}
